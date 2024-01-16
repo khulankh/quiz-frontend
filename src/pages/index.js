@@ -55,10 +55,10 @@ function Home() {
       <main>
         <div className='main-container'>
           <div className='navbar'>
-            <h1 style={{ color: 'blueviolet', fontSize: '48px', fontFamily: '  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;' }}>Facts</h1>
-            <button id='selected'>Home</button>
+            <h1 style={{ color: 'rgb(80, 113, 220)', fontSize: '48px', fontFamily: '  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;' }}>Facts</h1>
+            {/* <button id='selected'>Home</button> */}
             <button id='navbar-btn' onClick={() => goToMyFactPage()}>My Facts</button>
-            <button onClick={() => about()}> <FaUserAlt color='#4a24a1' size={30}  /> </button>
+            <button style={{border:'none', backgroundColor:'#F1EAFF'}} onClick={() => about()}> <FaUserAlt color='#4a24a1' size={30}  /> </button>
           </div>
           <div className='facts'>
             {
