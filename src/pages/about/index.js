@@ -9,5 +9,6 @@ return (
             <button id='navbar-btn' onClick={() => goToMyFactPage()}>My Facts</button>
             <button id="selected" onClick={() => about()}> <FaUserAlt color='#4a24a1' size={30} /> </button>
         </div>
+        
     </div>
 )
