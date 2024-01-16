@@ -40,6 +40,9 @@ function Home() {
   const goToMyFactPage = () => {
     router.push('/my-fact');
   };
+  const about = () => {
+    router.push('/about');
+  }
 
   return (
     <>
@@ -55,8 +58,7 @@ function Home() {
             <h1 style={{ color: 'blueviolet', fontSize: '48px', fontFamily: '  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;' }}>Facts</h1>
             <button id='selected'>Home</button>
             <button id='navbar-btn' onClick={() => goToMyFactPage()}>My Facts</button>
-            <FaUserAlt color='#4a24a1' size={30}/>
-            {/* <button id='navbar-btn' onClick={() => console.log('hello')}><FaUserAlt /></button> */}
+            <button onClick={() => about()}> <FaUserAlt color='#4a24a1' size={30}  /> </button>
           </div>
           <div className='facts'>
             {
