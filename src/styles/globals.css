@@ -167,7 +167,7 @@
   align-items: center;
   flex-direction: column;
   color: rgb(53, 14, 14);
-  background-color: #F1EAFF;
+  background-color: #FBCFFC;
   /* background-image: url('/backg.png');
   background-size: cover; */
 }
@@ -180,8 +180,9 @@
   z-index: 1;
   align-items: center;
   justify-content: space-between;
-  width: 2000px;
-  border: 1px solid rgb(78, 78, 78);
+  width: 2240px;
+  background-color: #FFCEF3;
+  border: 1.5px solid rgb(254, 254, 254);
   padding-right: 20px;
   padding: 30px;
 }
@@ -189,7 +190,7 @@
 .navbar-btns {
   padding-top: 45px;
   display: flex;
-  gap: 100px;
+  gap: 70px;
 }
 
 #navbar-btn {
@@ -197,21 +198,18 @@
   height: 46px;
   border-radius: 30px;
   border: none;
-  background-color: #4a24a1;
+  background-color: #EA168E;
   color: white;
 }
 
-.logo {
-  width: 200px;
-  height: 120px;
-}
+
 
 #selected {
   width: 90px;
   height: 46px;
   border-radius: 30px;
   border: none;
-  background-color: rgb(80, 113, 220);
+  background-color: #9d256d;
   color: #ffffff;
 }
 
@@ -224,7 +222,7 @@
   color: white;
 }
 
-
+/* Components style */
 
 .component-container {
   border: 2px solid purple;
@@ -239,7 +237,7 @@
   /* gap: 10px; */
   border-radius: 20px;
   justify-content: space-between;
-  background-color: white;
+  background-color: #F3F8FF;
 }
 
 .facts {
@@ -273,35 +271,35 @@
   align-items: center;
   flex-direction: column;
   color: rgb(53, 14, 14);
-  background-color: #F1EAFF;
+  background-color: rgb(251,207,252);
 }
 
 .like-btn {
   border: none;
   color: purple;
-  background-color: white;
+  background-color: #F3F8FF;
 }
 
 .like-btn:hover {
   color: #0975c2;
-  transition: 0.2s;
+  transition: 0.8s;
 }
 
 .edit-btn {
   color: black;
   border: none;
-  background-color: white;
+  background-color: #F3F8FF;
 }
 
 .edit-btn:hover {
-  color: #ff5bd9;
+  color: #612570;
   transition: 0.2s;
 }
 
 .delete-btn {
   color: black;
   border: none;
-  background-color: white;
+  background-color: #F3F8FF;
 }
 
 .delete-btn:hover {
@@ -346,16 +344,4 @@
   background-color: #FFC7EA;
   border: #0E21A0 1px solid;
 }
-/* .user-icon{
-  padding: 20px 0px 20px 50px;
-} */
-.about-container{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: rgb(53, 14, 14);
-  background-color: #F1EAFF;
-}
+ 
